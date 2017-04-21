@@ -59,3 +59,93 @@ div > .box-icon-search{
 	top: -9px;
 }
 /*---------------------*/
+/*my menu*/
+nav {
+	background-color: #5C5C66;
+}
+.box-menu {
+	background-color: #4D4D59;
+	margin: auto 8%;
+}
+.box-menu > ul{
+	margin: 0;
+	padding: 0 21px;
+
+}
+ul > li{
+	display: inline-block;
+	padding: 14px;
+	list-style: none;
+	color: white;
+}
+/*--------------------*/
+/*noticias*/
+.box-noticias{
+	margin: auto 8%;
+	background-color: white;
+	padding: 10px;
+}
+/*--------------------*/
+/*noticia derecha*/
+.new-right {
+	width: 30%;
+}
+.new-left {
+	width: 60%;
+}
+/*--------------------*/
+/*--------------------*/
+
+li > .more {
+	display: inline-block;
+	transform: rotate(180deg);
+}
+.sprite-alcalde-de-chilca {
+	width: 243px;
+	height: 270px;
+	background-position: 0 0;
+
+}
+
+
+.sprite-alejandra-aramayo {
+    width: 312px;
+    height: 165px;
+    background-position: -243px 0;
+}
+
+.sprite-anuncio {
+    width: 310px;
+    height: 86px;
+    background-position: -243px -165px;
+}
+
+
+.sprite-corea-del-norte- {
+    width: 312px;
+    height: 165px;
+    background-position: -243px -251px;
+}
+
+
+.sprite-futbol {
+    width: 644px;
+    height: 362px;
+    background-position: -555px 0;
+}
+
+
+
+
+.sprite-odebrecht {
+    width: 425px;
+    height: 250px;
+    background-position: -836px -362px;
+}
+
+
+.sprite-senora {
+    width: 53px;
+    height: 84px;
+    background-position: -1199px 0;
+}

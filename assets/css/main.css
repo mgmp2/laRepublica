@@ -1,0 +1,61 @@
+body {
+  font-family: "Roboto";
+  background: #ebebeb;
+	margin: 0;
+}
+
+/*Box of: logo, icons-social and search*/
+.first {
+	background: #E00109;
+	padding: 21px 12%;
+	position: relative;
+	height: 35px;
+}
+
+.first > div {
+	display: inline-flex;
+	position: absolute;
+}
+	/*--logo*/
+.sprite {
+	background-image: url(../img/spritesheet.png);
+	background-repeat: no-repeat;
+}
+.sprite-logo {
+	width: 281px;
+	height: 49px;
+	background-position: -555px -362px;
+	color: white;
+}
+	/*--box social*/
+div > .div-box-social {
+	top: 7px;
+	left: 42%;
+}
+.box-social {
+	margin: 0;
+}
+.box-social > li{
+	display: inline-block;
+}
+
+/*cajita de buscador*/
+.search {
+	border-radius: 21px;
+  right: 13%;
+  padding: 6px;
+  border-style: solid;
+  color: white;
+	width: 70px;
+	font-weight: 700;
+}
+.search > div {
+	display: inherit;
+}
+div > .box-icon-search{
+	transform: scaleX(-1); /*voltea horizontalmente*/
+	position: absolute;
+	right: 4px;
+	top: -9px;
+}
+/*---------------------*/

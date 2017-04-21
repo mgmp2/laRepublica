@@ -78,6 +78,10 @@ ul > li{
 	list-style: none;
 	color: white;
 }
+li > .more {
+	display: inline-block;
+	transform: rotate(180deg);
+}
 /*--------------------*/
 /*noticias*/
 .box-noticias{
@@ -88,24 +92,96 @@ ul > li{
 /*--------------------*/
 /*noticia derecha*/
 .new-right {
-	width: 30%;
+	width: 35%;
+	float: right;
+
 }
+.right-top {
+	position: relative;
+	height: 210px;
+	background: blue;
+	padding: 14px;
+}
+/*--------------------*/
+/*noticias izquierda*/
 .new-left {
-	width: 60%;
+	width: 65%;
+	float: left;
 }
+.left-top {
+	position: relative;
+	height: 245px;
+	background: red;
+	padding: 14px;
+
+}
+.left-top > .left-text{
+	width: 35%;
+	position: absolute;
+	padding: 7px 14px;
+	background: #333340;
+	color: white;
+	justify-content: space-around;
+}
+.left-text > ul >li > span {
+	color: gray!important;
+}
+/*imagen sprite*/
+.left-top > span {
+	width: 60%;
+	position: absolute;
+}
+
+.sprite-odebrecht {
+    width: 425px;
+    height: 250px;
+    background-position: -836px -362px;
+		right: 0;
+}
+.left-bottom {
+	padding: 14px;
+	background: blue;
+	position: relative;
+	height: 210px;
+}
+.left-bottom > .bottom-left {
+	width: 40%;
+	position: absolute;
+	padding: 7px 14px;
+	background: #333340;
+	color: white;
+	justify-content: space-around;
+	margin-left: 20px;
+}
+.left-bottom > .bottom-right {
+	width: 40%;
+	position: absolute;
+	padding: 7px 14px;
+	margin-right: 20px;
+	background: #333340;
+	color: white;
+	justify-content: space-around;
+	right: 0;
+}
+.left-text > ul >li > span {
+	color: gray!important;
+}
+/*imagen sprite*/
+.left-top > span {
+	width: 60%;
+	position: absolute;
+}
+/*--------------------*/
+/*--------------------*/
 /*--------------------*/
 /*--------------------*/
 
-li > .more {
-	display: inline-block;
-	transform: rotate(180deg);
-}
 .sprite-alcalde-de-chilca {
 	width: 243px;
 	height: 270px;
 	background-position: 0 0;
-
 }
+
 
 
 .sprite-alejandra-aramayo {
@@ -123,7 +199,7 @@ li > .more {
 
 .sprite-corea-del-norte- {
     width: 312px;
-    height: 165px;
+    height: 16px;
     background-position: -243px -251px;
 }
 
@@ -137,11 +213,7 @@ li > .more {
 
 
 
-.sprite-odebrecht {
-    width: 425px;
-    height: 250px;
-    background-position: -836px -362px;
-}
+
 
 
 .sprite-senora {

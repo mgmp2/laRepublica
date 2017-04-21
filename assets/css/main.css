@@ -138,21 +138,51 @@ li > .more {
     background-position: -836px -362px;
 		right: 0;
 }
+/*left bottom*/
 .left-bottom {
 	padding: 14px;
 	background: blue;
 	position: relative;
-	height: 210px;
+	height: 410px;
 }
-.left-bottom > .bottom-left {
-	width: 40%;
+.left-bottom > .bottom-left{
+  margin-left: 20px;
+  width: 55%;
+  position: absolute;
+  padding: 7px 14px;
+  background: #333340;
+  color: white;
+  justify-content: space-around;
+  box-sizing: border-box;
+  left: 0;
+}
+/*image sprite*/
+.bottom-left > span {
+  position: absolute;
+  width: 100%;
+  height: 40%
+}
+.sprite-alejandra-aramayo {
+  width: 312px;
+  height: 165px;
+  background-position: -243px 0;
+  top: 0;
+  left: 0;
+}
+/*texto hacia abajo */
+.bottom-left > .left-text {
+  padding: 7px 14px;
+  width: 100%;
+  top:   40%;
 	position: absolute;
-	padding: 7px 14px;
 	background: #333340;
 	color: white;
 	justify-content: space-around;
-	margin-left: 20px;
+	left: 0;
+
 }
+
+/*bottom right*/
 .left-bottom > .bottom-right {
 	width: 40%;
 	position: absolute;
@@ -167,10 +197,7 @@ li > .more {
 	color: gray!important;
 }
 /*imagen sprite*/
-.left-top > span {
-	width: 60%;
-	position: absolute;
-}
+
 /*--------------------*/
 /*--------------------*/
 /*--------------------*/
@@ -184,11 +211,7 @@ li > .more {
 
 
 
-.sprite-alejandra-aramayo {
-    width: 312px;
-    height: 165px;
-    background-position: -243px 0;
-}
+
 
 .sprite-anuncio {
     width: 310px;
